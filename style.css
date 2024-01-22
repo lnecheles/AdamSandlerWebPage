@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .parallax-container {
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .parallax-background {
+    background-image: url('Sandman.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+  }
+  
+  .upcoming-movie {
+    background-color: rgba(0, 123, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .movie {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 0rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .resized-image {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio by setting height to auto */
+  }
